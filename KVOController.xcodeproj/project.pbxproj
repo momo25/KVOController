@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9A2219880AAFEF8942C2A21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C804CDA16844D804C7D0C3 /* libPods.a */; };
 		F79778741C8D2FF800F1B6DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F79778731C8D2FF800F1B6DE /* main.m */; };
 		F79778771C8D2FF800F1B6DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79778761C8D2FF800F1B6DE /* AppDelegate.m */; };
 		F797787A1C8D2FF800F1B6DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79778791C8D2FF800F1B6DE /* ViewController.m */; };
 		F797787D1C8D2FF800F1B6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F797787B1C8D2FF800F1B6DE /* Main.storyboard */; };
-		F79778801C8D2FF800F1B6DE /* KVOController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F797787E1C8D2FF800F1B6DE /* KVOController.xcdatamodeld */; };
 		F79778821C8D2FF800F1B6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79778811C8D2FF800F1B6DE /* Assets.xcassets */; };
 		F79778851C8D2FF800F1B6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79778831C8D2FF800F1B6DE /* LaunchScreen.storyboard */; };
 		F79778901C8D2FF800F1B6DE /* KVOControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F797788F1C8D2FF800F1B6DE /* KVOControllerTests.m */; };
 		F797789B1C8D2FF800F1B6DE /* KVOControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F797789A1C8D2FF800F1B6DE /* KVOControllerUITests.m */; };
+		F79778AA1C8D353A00F1B6DE /* ColorModal.m in Sources */ = {isa = PBXBuildFile; fileRef = F79778A91C8D353A00F1B6DE /* ColorModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0D656A2A131977363655E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C804CDA16844D804C7D0C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA965E95936F7DB31C985F21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F797786F1C8D2FF800F1B6DE /* KVOController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79778731C8D2FF800F1B6DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F79778751C8D2FF800F1B6DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +47,6 @@
 		F79778781C8D2FF800F1B6DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F79778791C8D2FF800F1B6DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F797787C1C8D2FF800F1B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F797787F1C8D2FF800F1B6DE /* KVOController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KVOController.xcdatamodel; sourceTree = "<group>"; };
 		F79778811C8D2FF800F1B6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F79778841C8D2FF800F1B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F79778861C8D2FF800F1B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +56,8 @@
 		F79778961C8D2FF800F1B6DE /* KVOControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F797789A1C8D2FF800F1B6DE /* KVOControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOControllerUITests.m; sourceTree = "<group>"; };
 		F797789C1C8D2FF800F1B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79778A81C8D353A00F1B6DE /* ColorModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorModal.h; sourceTree = "<group>"; };
+		F79778A91C8D353A00F1B6DE /* ColorModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorModal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A2219880AAFEF8942C2A21 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B9380096E894169BF98397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C804CDA16844D804C7D0C3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB1DC9B781E574D65F39A37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D656A2A131977363655E2 /* Pods.debug.xcconfig */,
+				DA965E95936F7DB31C985F21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F79778661C8D2FF800F1B6DE = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +110,8 @@
 				F797788E1C8D2FF800F1B6DE /* KVOControllerTests */,
 				F79778991C8D2FF800F1B6DE /* KVOControllerUITests */,
 				F79778701C8D2FF800F1B6DE /* Products */,
+				ADB1DC9B781E574D65F39A37 /* Pods */,
+				02B9380096E894169BF98397 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,8 @@
 		F79778711C8D2FF800F1B6DE /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
+				F79778A81C8D353A00F1B6DE /* ColorModal.h */,
+				F79778A91C8D353A00F1B6DE /* ColorModal.m */,
 				F79778751C8D2FF800F1B6DE /* AppDelegate.h */,
 				F79778761C8D2FF800F1B6DE /* AppDelegate.m */,
 				F79778781C8D2FF800F1B6DE /* ViewController.h */,
@@ -111,7 +138,6 @@
 				F79778811C8D2FF800F1B6DE /* Assets.xcassets */,
 				F79778831C8D2FF800F1B6DE /* LaunchScreen.storyboard */,
 				F79778861C8D2FF800F1B6DE /* Info.plist */,
-				F797787E1C8D2FF800F1B6DE /* KVOController.xcdatamodeld */,
 				F79778721C8D2FF800F1B6DE /* Supporting Files */,
 			);
 			path = KVOController;
@@ -150,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F797789F1C8D2FF800F1B6DE /* Build configuration list for PBXNativeTarget "KVOController" */;
 			buildPhases = (
+				A228EF41A31E791570289D73 /* Check Pods Manifest.lock */,
 				F797786B1C8D2FF800F1B6DE /* Sources */,
 				F797786C1C8D2FF800F1B6DE /* Frameworks */,
 				F797786D1C8D2FF800F1B6DE /* Resources */,
+				C14163D7C0D7F28340FA9D83 /* Embed Pods Frameworks */,
+				19D49CEF24471C89F5382B4F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +297,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19D49CEF24471C89F5382B4F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A228EF41A31E791570289D73 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C14163D7C0D7F28340FA9D83 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F797786B1C8D2FF800F1B6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,8 +352,8 @@
 			files = (
 				F797787A1C8D2FF800F1B6DE /* ViewController.m in Sources */,
 				F79778771C8D2FF800F1B6DE /* AppDelegate.m in Sources */,
-				F79778801C8D2FF800F1B6DE /* KVOController.xcdatamodeld in Sources */,
 				F79778741C8D2FF800F1B6DE /* main.m in Sources */,
+				F79778AA1C8D353A00F1B6DE /* ColorModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +490,7 @@
 		};
 		F79778A01C8D2FF800F1B6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0D656A2A131977363655E2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KVOController/Info.plist;
@@ -424,6 +502,7 @@
 		};
 		F79778A11C8D2FF800F1B6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA965E95936F7DB31C985F21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KVOController/Info.plist;
@@ -500,6 +579,7 @@
 				F79778A11C8D2FF800F1B6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F79778A21C8D2FF800F1B6DE /* Build configuration list for PBXNativeTarget "KVOControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +588,7 @@
 				F79778A41C8D2FF800F1B6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F79778A51C8D2FF800F1B6DE /* Build configuration list for PBXNativeTarget "KVOControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,21 +597,9 @@
 				F79778A71C8D2FF800F1B6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F797787E1C8D2FF800F1B6DE /* KVOController.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F797787F1C8D2FF800F1B6DE /* KVOController.xcdatamodel */,
-			);
-			currentVersion = F797787F1C8D2FF800F1B6DE /* KVOController.xcdatamodel */;
-			path = KVOController.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F79778671C8D2FF800F1B6DE /* Project object */;
 }
